@@ -61,12 +61,7 @@ margin-bottom: 32px;
     font-size: 18px;
     margin-bottom: 48px;
 }
-/* .Featured_img{
-    display: flex;
-justify-content: space-between;
-padding: 0 240px 0 240px ;
 
-} */
 
 .Featured_img{
     padding: 0px 200px 0px 200px ;
@@ -83,6 +78,27 @@ padding: 0 240px 0 240px ;
 .Featured_img>a{
 text-align: center;
 }
+/* grup section start */
+.group{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+padding: 88px 175px 88px 175px;
+margin: 0px 240px 128px  240px;
+}
+.grp{
+margin-left: 10px;
+text-align: center;
+padding: 30px;
+}
+/* grup section end */
+
+
+
 /* deal  */
 .deal{
     width: 1922px;
@@ -130,25 +146,61 @@ height: 420px;
   padding: 0px 240px 128px 240px  ;
   display: flex;
   justify-content: center;
-/* gap: 24; */
 }
-.insta_img>img{
-    margin-bottom: 24px ;
+
+.colume>img{
+    padding: 20px;
 }
-/* .Featured_img>.one>img{
-    width: 370px;
-    height: 370px;
-    background: rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0px 0px;
-} */
-/* .Featured_img>img{
-.Featured_img
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15), rgba(167, 33, 98, 0.15), rgba(71, 125, 17, 0.15);
-1x
-;
-1x
-;
-} */
+/* latest section start */
+
+.latest_deal{
+width: 1440px;
+height: 449px;
+position: relative;
+text-align: center;
+align-items: center;
+margin: 0px 240px 126px 240px;
+background-image: url("./Flower_Asset/Rectangle_9.png");
+}
+
+.latest>h1{
+font-size: 39px;
+color: #272727;
+align-items: center;
+margin-bottom: 20px;
+padding-top: 122px;
+}
+.latest>p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px ;
+    align-items: center;
+    margin-bottom: 49px;
+}
+.latest>input{
+    border: 0;
+    border-radius: 8px;
+    margin: 10px 20px ;
+    width: 700px;
+height: 64px;
+background: #FFF;
+}
 
 /* main section end  */
+
+/* footer start */
+.foot{
+    width: 1922px;
+height: 449px;
+background-color: #111010;
+text-align: center;
+
+color: white;
+padding: 128px 650px  128px 650px;
+}
+.foot_info>h1{
+  margin-bottom: 24px;
+}
+.foot_info_pera{
+    color: #272727;
+    margin-top: 32px;
+}
