@@ -79,35 +79,6 @@ header {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .Featured_img {
-  padding: 0px 200px 0px 200px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  margin-bottom: 128px;
-}
-.Featured_img > img {
-  border-radius: 300px 300px 0px 0px;
-  padding: 50px 50px 0px 40px;
-}
-.Featured_img > a {
-  text-align: center;
-} */
 /* grup section start */
 .group {
   display: flex;
@@ -178,6 +149,39 @@ header {
 .colume > img {
   padding: 20px;
 }
+/* insta section end  */
+/* shops section start */
+.shops{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333131;
+  color: rgb(223, 222, 222);
+  height: 450px;
+  margin-bottom: 100px;
+}
+.shop{
+padding: 40px;
+}
+.shop>h1{
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.shop>p{
+  font-size: 18px;
+  color: #dbd3d3;
+}
+.sms>h1{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.form>input{
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 5px;
+}
+/* shops section end */
 /* latest section start */
 
 .latest_deal {
